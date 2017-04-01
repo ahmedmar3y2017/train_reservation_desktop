@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.ss{
+    -fx-background-image: url("pp.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1209 529;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="vb" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vbox.VboxController">
+   <children>
+      <ImageView fx:id="image" fitHeight="106.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="name" fill="#0d00ff" strokeType="OUTSIDE" strokeWidth="0.0" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="Login" onAction="#action" prefHeight="39.0" prefWidth="180.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="register" onAction="#action" prefHeight="39.0" prefWidth="180.0" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="logout" onAction="#action" prefHeight="40.0" prefWidth="181.0" text="logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="help" onAction="#action" prefHeight="41.0" prefWidth="180.0" text="help">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exite" onAction="#action" prefHeight="42.0" prefWidth="180.0" text="Exite">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</VBox>
